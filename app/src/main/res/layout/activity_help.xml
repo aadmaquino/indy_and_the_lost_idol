@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity"
+    android:orientation="vertical"
+    android:background="@drawable/indiana_jones_oficial">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:background="#CCFFE283"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ButtonBack"
+            android:layout_gravity="left|bottom"
+            android:text="@string/button_back"
+            android:textSize="23.7dp"
+            android:background="#945027"
+            android:textColor="#F7BA71"
+            android:onClick="OnClickBack"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ButtonAbout"
+            android:layout_gravity="right|bottom"
+            android:text="@string/button_about"
+            android:textSize="23.7dp"
+            android:background="#945027"
+            android:textColor="#F7BA71"
+            android:onClick="OnClickAbout"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"
+            android:text="@string/textview_howtoplay_title"
+            android:id="@+id/TextViewHowToPlay_Title"
+            android:layout_gravity="top|center"
+            android:gravity="center"
+            android:textColor="#000" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:id="@+id/scrollView"
+            android:layout_marginTop="48dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    android:text="@string/textview_howtoplay_story_title"
+                    android:id="@+id/TextViewHowToPlay_Story_Title"
+                    android:layout_gravity="top|center"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/TextViewHowToPlay_Story"
+                    android:text="@string/textview_howtoplay_story"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:typeface="normal"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    android:text="@string/textview_howtoplay_objective_title"
+                    android:id="@+id/TextViewHowToPlay_Objective_Title"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/TextViewHowToPlay_Objective"
+                    android:text="@string/textview_howtoplay_objective"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:typeface="normal"
+                    android:textColor="#000" />
+
+                <GridLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="3"
+                    android:paddingTop="10dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/ImageViewJones"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:gravity="right"
+                        android:src="@drawable/balljones"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="10dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/ImageViewArrow1"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:src="@drawable/arrow"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/TextViewJones"
+                        android:layout_row="0"
+                        android:layout_column="2"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="@string/textview_jones"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/ImageViewIndian"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:gravity="right"
+                        android:src="@drawable/ballindian"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="10dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ImageViewArrow2"
+                        android:layout_row="1"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:src="@drawable/arrow"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/TextViewIndian"
+                        android:layout_row="1"
+                        android:layout_column="2"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="@string/textview_indian"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/ImageViewIdol"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:gravity="right"
+                        android:src="@drawable/idol"
+                        android:layout_gravity="right" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/ImageViewArrow3"
+                        android:layout_row="2"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:src="@drawable/arrow"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/TextViewIdol"
+                        android:layout_row="2"
+                        android:layout_column="2"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="@string/textview_idol"
+                        android:textColor="#000"
+                        android:gravity="center" />
+
+                </GridLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    android:text="@string/textview_howtoplay_controls_title"
+                    android:id="@+id/TextViewHowToPlay_Controls_Title"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textColor="#000" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/ImageViewGifDevice"
+                    android:contentDescription="" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/TextViewHowToPlay_Controls"
+                    android:text="@string/textview_howtoplay_controls"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:typeface="normal"
+                    android:textColor="#000" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ButtonPlay_Help"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="@string/button_play"
+            android:textSize="30.7sp"
+            android:textStyle="bold"
+            android:background="#945027"
+            android:textColor="#F7BA71"
+            android:gravity="center"
+            android:onClick="OnClickPlay_Help" />
+
+    </FrameLayout>
+
+</RelativeLayout>

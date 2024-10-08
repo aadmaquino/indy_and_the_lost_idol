@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GamePlayActivity"
+    android:orientation="vertical"
+    android:background="@drawable/scenery_temple" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewActDescription"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/textview_start_description"
+        android:background="#000" />
+
+    <br.com.aadmaquino.autoinstrucional.AnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ViewGamePlay"
+        android:layout_gravity="center" />
+
+</LinearLayout>

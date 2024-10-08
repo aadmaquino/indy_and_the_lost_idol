@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Indy and the Lost Idol</string>
+
+    <string name="action_exit">SAIR</string>
+    <string name="action_exit_message">Tem certeza de que quer sair do jogo?</string>
+    <string name="action_exit_gameplay">SAIR DO JOGO</string>
+    <string name="action_exitgame_message">Tem certeza de que quer voltar ao menu principal?</string>
+
+    <string name="action_win">VITÓRIA</string>
+    <string name="action_win_message">PARABÉNS! Indiana Jones resgatou o Ídolo!</string>
+
+    <string name="action_lose">DERROTA</string>
+    <string name="action_lose_message1">Indiana Jones encostou na parede venenosa e morreu!</string>
+    <string name="action_lose_message2">Indiana Jones foi pego pelo índio e morreu!</string>
+
+    <string name="button_help">AJUDA</string>
+    <string name="button_play">JOGAR</string>
+    <string name="button_back">VOLTAR</string>
+    <string name="button_about">SOBRE</string>
+
+    <string name="textview_jones">Indiana Jones\n(você)</string>
+    <string name="textview_indian">Índio da Tribo\nJarawara</string>
+    <string name="textview_idol">Ídolo Dourado</string>
+
+    <string name="textview_howtoplay_title">COMO JOGAR?</string>
+    <string name="textview_howtoplay_story_title">História</string>
+    <string name="textview_howtoplay_story">
+        Henry Jones Júnior, mais conhecido como Indiana Jones, está de volta em mais uma nova aventura.
+        Após realizar uma viagem em 1936, até as selvas do Peru para buscar artefatos misteriosos,
+        Indy conseguiu resgatar o Ídolo Dourado do Templo dos Chachapoyan. Para a sua desgraça, o
+        Ídolo acabou parando nas mãos de seu maior rival, Belloq. Um ano se passou e Indy recebeu
+        informações de Marcus Brody, seu amigo e fiel companheiro, sobre a possível localização do
+        Ídolo, pouco depois da morte de Belloq. Desta vez, esse artefato está guardado dentro do
+        Templo Perdido dos Jarawara, na Amazônia Brasileira. Então, Indiana Jones decidiu recuperar
+        o Ídolo Dourado.
+    </string>
+    <string name="textview_howtoplay_objective_title">Objetivo</string>
+    <string name="textview_howtoplay_objective">
+        Ajude Indiana Jones a alcançar o Ídolo Dourado no Templo Perdido dos Jarawara para vencer
+        a partida. Mas tome cuidado! Não toque nas paredes do Templo, porque elas contém veneno.
+        E não deixe que o índio da tribo Jarawara te pegue. Nessas 2 situações, Indy morrerá e
+        será fim de jogo.
+    </string>
+    <string name="textview_howtoplay_controls_title">Controles</string>
+    <string name="textview_howtoplay_controls">
+        Incline o seu dispositivo, como o exemplo acima, para que Indiana Jones possa se mover.
+    </string>
+
+    <string name="app_development">
+        - Desenvolvedores:\n\t\t\t* Antônio Augusto Duarte\n\t\t\t* Iago Ávila\n\n
+        - Créditos: Flávio Laper (Professor do curso de Ciência da Computação na Universidade FUMEC)\n\n
+        - Agradecimentos: Universidade FUMEC, Android Developers\n\n
+        - Agradecimentos especiais: Lucasfilm®, Lucasarts®, Harrison Ford, John Williams
+    </string>
+
+    <string name="button_ok_message">OK</string>
+    <string name="button_yes_message">Sim</string>
+    <string name="button_no_message">Não</string>
+    <string name="textview_start_description">(Para jogar, toque na tela)</string>
+    <string name="button_try_again">Tentar de novo</string>
+    <string name="button_exit_game">Sair do jogo</string>
+    <string name="button_play_again">Jogar novamente</string>
+
+</resources>
